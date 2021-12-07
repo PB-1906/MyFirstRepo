@@ -3,6 +3,9 @@
 int main() 
 { 
 	int n; 
-	printf("Enter a number\n"); scanf("%d",&n); 		printf("Number: %d\n",n); 
+	printf("Enter a number\n"); 
+	scanf("%d",&n); 
+	n++; 
+	printf("Number: %d\n",n); 
 	return 0; 
 } 
